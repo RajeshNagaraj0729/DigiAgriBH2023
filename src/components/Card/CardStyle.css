@@ -1,0 +1,82 @@
+.diseaseWithCard {
+  border-radius: 5px;
+  padding: 15px;
+}
+.diseaseCardSec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.diseaseCardSecLeft {
+  flex: 3;
+}
+.diseaseCardSecRight {
+  flex: 1;
+}
+.diseaseCardHeading {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.diseaseCardTxt {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.numbrCount {
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+.whiteCardBgHeadingColor {
+  color: #767f88;
+}
+.whiteCardBgTxtColor {
+  color: #adadad;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .diseaseCardSec {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .diseaseCardSec {
+    margin-bottom: 20px;
+  }
+}
+.diseaseBlueCard {
+  background-color: #4c4375;
+  background: -moz-linear-gradient(45deg, #4c4375, #385076);
+  background: -webkit-linear-gradient(45deg, #4c4375, #385076);
+  background: -o-linear-gradient(45deg, #4c4375, #385076);
+  background: linear-gradient(45deg, #4c4375, #385076);
+}
+.diseaseSkyBlueCard {
+  background-color: #37bff0;
+  background: -moz-linear-gradient(45deg, #37bff0, #37bfef);
+  background: -webkit-linear-gradient(45deg, #37bff0, #37bfef);
+  background: -o-linear-gradient(45deg, #37bff0, #37bfef);
+  background: linear-gradient(45deg, #37bff0, #37bfef);
+}
+.diseaseGreenCard {
+  background-color: #3ab990;
+  background: -moz-linear-gradient(45deg, #3ab990, #0da462);
+  background: -webkit-linear-gradient(45deg, #3ab990, #0da462);
+  background: -o-linear-gradient(45deg, #3ab990, #0da462);
+  background: linear-gradient(45deg, #3ab990, #0da462);
+}
+.diseaseRedCard {
+  background-color: #d92550;
+  background: -moz-linear-gradient(45deg, #ff6384, #d92550);
+  background: -webkit-linear-gradient(45deg, #ff6384, #d92550);
+  background: -o-linear-gradient(45deg, #ff6384, #d92550);
+  background: linear-gradient(45deg, #ff6384, #d92550);
+}
+.whiteCardBg {
+  background-color: #fff;
+}

@@ -1,0 +1,163 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .imgFileTxt {
+    font-size: 0.85rem !important;
+  }
+  .fileUploadStyle {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  .bannerLableStyle {
+    font-size: 0.85rem !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .imgFileTxt {
+    font-size: 0.75rem !important;
+  }
+  .fileUploadStyle {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .imgFileTxt {
+    font-size: 0.7rem !important;
+  }
+  .fileUploadStyle {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .createBannerTable,
+  .createBannerTable table,
+  .farmerRegistrationTable,
+  .farmerRegistrationTable table {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .createBannerTable table thead tr th:nth-child(6),
+  .createBannerTable table tbody tr td:nth-child(6),
+  .farmerRegistrationTable table thead tr th:nth-child(6),
+  .farmerRegistrationTable table tbody tr td:nth-child(6) {
+    word-break: normal !important;
+  }
+}
+input[type="date"] {
+  color: #f4c444;
+}
+input.inputStyle:hover {
+  border: 1px solid #2a6049 !important;
+}
+.inputStyle {
+  border: 1px solid #b6b5bf;
+  border-radius: 4px;
+  padding: 6px;
+  width: 100%;
+  font-size: 0.95rem;
+  color: #2a6049;
+}
+.bannerLableStyle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0px !important;
+  font-size: 0.95rem;
+  color: #7e8389;
+}
+.fileUploadStyle {
+  border: 1px solid #b6b5bf !important;
+  border-radius: 4px 4px !important;
+  padding: 6px !important;
+  /* width: 100%; */
+}
+.imgFileTxt {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #22904f;
+  margin-bottom: 0px !important;
+}
+.createBannerTable,
+.createBannerTable table,
+.farmerRegistrationTable,
+.farmerRegistrationTable table {
+  width: 100%;
+}
+.farmerRegistrationTable table {
+  margin-bottom: 0px;
+}
+.createBannerTable table thead tr th,
+.farmerRegistrationTable table tr th {
+  background-color: #2a6049;
+  padding: 8px 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+.createBannerTable table tbody tr td,
+.farmerRegistrationTable table tr td {
+  padding: 4px 6px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #7e8389;
+  text-align: center;
+  vertical-align: middle;
+}
+.createBannerTable table thead tr th:nth-child(7),
+.createBannerTable table tbody tr td:nth-child(7) {
+  width: 420px;
+  /*word-break: break-word;*/
+}
+.createBannerTable button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.uploadImageStyle {
+  border: 1px dashed #d6d9dc;
+  padding: 10px;
+}
+.uploadImageStyle {
+  border: 1px dashed #d6d9dc;
+  padding: 10px;
+}
+.presentBannerNameStyle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #22904f;
+  margin-bottom: 0px;
+  vertical-align: middle;
+}
+.rs-modal-body {
+  margin-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.createBannerTable table tr td:nth-last-child(n + 1) button {
+  margin: 0px;
+}
+.newsUrlStyle {
+  width: 160px;
+  word-break: break-word;
+  display: inline-block;
+}
+.newsImgStyle {
+  height: 50px;
+}
+.newsIconTable {
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.notFoundTxt {
+  font-size: 0.85rem;
+}
+.farmerRegistrationTable table thead tr th:nth-child(7),
+.farmerRegistrationTable table tbody tr td:nth-child(7) {
+  width: auto;
+  word-break: break-word;
+}
+.farmerRegistrationPopupTable {
+  max-height: 450px;
+  overflow-y: scroll;
+  margin-bottom: 0px;
+}

@@ -1,0 +1,58 @@
+.editDiseaseName {
+  color: #7e8389;
+  margin-bottom: 5px;
+}
+.visionTagsSec {
+  margin: 0px;
+  padding: 0px;
+}
+.visionTagsImg {
+  height: 400px;
+}
+.visionTagsSec table tr th {
+  background-color: #2a6049;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #fff;
+}
+.visionTagsSec table tr th:nth-last-child(1),
+.visionTagsSec table tr td:nth-last-child(1) {
+  text-align: center;
+}
+.visionTagsSec table tr td {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #7e8389;
+}
+.visionTagsSec table thead tr th,
+.visionTagsSec table tbody tr td {
+  width: 50%;
+  word-break: break-all;
+}
+.visionTagsSec .rdt_TableHeader {
+  padding: 0px;
+  min-height: auto;
+  margin-bottom: 0.3rem;
+}
+.visionTagsSec .rdt_TableHeader div {
+  font-weight: 500 !important;
+  font-size: 1.125rem;
+  color: #f4c444;
+}
+.EstimatedCropAreaStyle,
+.EstimatedAffectedAreaStyle {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.updateBtnMainStyle {
+  position: absolute;
+  right: 0;
+}
+.updateBtnStyle {
+  position: relative;
+  top: 15px;
+  left: auto;
+  right: 30px;
+  z-index: 9;
+}
